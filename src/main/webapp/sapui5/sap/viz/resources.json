@@ -1,0 +1,5755 @@
+{
+  "_version": "1.1.0",
+  "resources": [
+    {
+      "name": ".library"
+    },
+    {
+      "name": ".theming"
+    },
+    {
+      "name": "library-all-dbg.js",
+      "isDebug": true,
+      "merged": true
+    },
+    {
+      "name": "library-all.js",
+      "merged": true
+    },
+    {
+      "name": "library-dbg.js",
+      "module": "sap/viz/library.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Core.js",
+        "sap/ui/core/library.js",
+        "sap/viz/ui5/format/ChartFormatter.js",
+        "sap/viz/ui5/api/env/Format.js"
+      ],
+      "condRequired": [
+        "sap/ui/thirdparty/d3.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-core.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-widget.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-mouse.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-draggable.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-droppable.js",
+        "sap/viz/libs/canvg.js",
+        "sap/viz/libs/rgbcolor.js",
+        "sap/viz/libs/sap-viz-info-framework.js",
+        "sap/viz/libs/sap-viz-info-charts.js",
+        "sap/viz/ui5/controls/libs/sap-viz-vizframe/sap-viz-vizframe.js",
+        "sap/viz/ui5/controls/libs/sap-viz-vizservices/sap-viz-vizservices.js",
+        "sap/ui/core/theming/Parameters.js"
+      ]
+    },
+    {
+      "name": "library-preload.js",
+      "merged": true
+    },
+    {
+      "name": "library-preload.js.map"
+    },
+    {
+      "name": "library-preload.json",
+      "merged": true
+    },
+    {
+      "name": "library.dependencies.json"
+    },
+    {
+      "name": "library.dependencies.xml"
+    },
+    {
+      "name": "library.js",
+      "module": "sap/viz/library.js",
+      "required": [
+        "sap/ui/core/Core.js",
+        "sap/ui/core/library.js",
+        "sap/viz/ui5/format/ChartFormatter.js",
+        "sap/viz/ui5/api/env/Format.js"
+      ],
+      "condRequired": [
+        "sap/ui/thirdparty/d3.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-core.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-widget.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-mouse.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-draggable.js",
+        "sap/ui/thirdparty/jqueryui/jquery-ui-droppable.js",
+        "sap/viz/libs/canvg.js",
+        "sap/viz/libs/rgbcolor.js",
+        "sap/viz/libs/sap-viz-info-framework.js",
+        "sap/viz/libs/sap-viz-info-charts.js",
+        "sap/viz/ui5/controls/libs/sap-viz-vizframe/sap-viz-vizframe.js",
+        "sap/viz/ui5/controls/libs/sap-viz-vizservices/sap-viz-vizservices.js",
+        "sap/ui/core/theming/Parameters.js"
+      ]
+    },
+    {
+      "name": "library.templates.xml"
+    },
+    {
+      "name": "libs/canvg-dbg.js",
+      "module": "sap/viz/libs/canvg.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/libs/rgbcolor.js"
+      ]
+    },
+    {
+      "name": "libs/canvg.js",
+      "module": "sap/viz/libs/canvg.js",
+      "required": [
+        "sap/viz/libs/rgbcolor.js"
+      ]
+    },
+    {
+      "name": "libs/rgbcolor-dbg.js",
+      "module": "sap/viz/libs/rgbcolor.js",
+      "isDebug": true
+    },
+    {
+      "name": "libs/rgbcolor.js",
+      "module": "sap/viz/libs/rgbcolor.js"
+    },
+    {
+      "name": "libs/sap-viz-dbg.js",
+      "module": "sap/viz/libs/sap-viz.js",
+      "isDebug": true
+    },
+    {
+      "name": "libs/sap-viz-info-charts-dbg.js",
+      "module": "sap/viz/libs/sap-viz-info-charts.js",
+      "isDebug": true
+    },
+    {
+      "name": "libs/sap-viz-info-charts.js",
+      "module": "sap/viz/libs/sap-viz-info-charts.js"
+    },
+    {
+      "name": "libs/sap-viz-info-framework-dbg.js",
+      "module": "sap/viz/libs/sap-viz-info-framework.js",
+      "isDebug": true
+    },
+    {
+      "name": "libs/sap-viz-info-framework.js",
+      "module": "sap/viz/libs/sap-viz-info-framework.js"
+    },
+    {
+      "name": "libs/sap-viz.js",
+      "module": "sap/viz/libs/sap-viz.js"
+    },
+    {
+      "name": "manifest.json",
+      "module": "sap/viz/manifest.json"
+    },
+    {
+      "name": "resources.json"
+    },
+    {
+      "name": "resources/chart/langs/language-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language.js",
+      "module": "sap/viz/resources/chart/langs/language.js"
+    },
+    {
+      "name": "resources/chart/langs/language_ar-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_ar.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_ar.js",
+      "module": "sap/viz/resources/chart/langs/language_ar.js"
+    },
+    {
+      "name": "resources/chart/langs/language_bg-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_bg.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_bg.js",
+      "module": "sap/viz/resources/chart/langs/language_bg.js"
+    },
+    {
+      "name": "resources/chart/langs/language_ca-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_ca.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_ca.js",
+      "module": "sap/viz/resources/chart/langs/language_ca.js"
+    },
+    {
+      "name": "resources/chart/langs/language_cs-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_cs.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_cs.js",
+      "module": "sap/viz/resources/chart/langs/language_cs.js"
+    },
+    {
+      "name": "resources/chart/langs/language_da-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_da.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_da.js",
+      "module": "sap/viz/resources/chart/langs/language_da.js"
+    },
+    {
+      "name": "resources/chart/langs/language_de-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_de.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_de.js",
+      "module": "sap/viz/resources/chart/langs/language_de.js"
+    },
+    {
+      "name": "resources/chart/langs/language_el-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_el.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_el.js",
+      "module": "sap/viz/resources/chart/langs/language_el.js"
+    },
+    {
+      "name": "resources/chart/langs/language_en-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_en.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_en.js",
+      "module": "sap/viz/resources/chart/langs/language_en.js"
+    },
+    {
+      "name": "resources/chart/langs/language_es-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_es.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_es.js",
+      "module": "sap/viz/resources/chart/langs/language_es.js"
+    },
+    {
+      "name": "resources/chart/langs/language_et-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_et.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_et.js",
+      "module": "sap/viz/resources/chart/langs/language_et.js"
+    },
+    {
+      "name": "resources/chart/langs/language_fi-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_fi.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_fi.js",
+      "module": "sap/viz/resources/chart/langs/language_fi.js"
+    },
+    {
+      "name": "resources/chart/langs/language_fr-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_fr.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_fr.js",
+      "module": "sap/viz/resources/chart/langs/language_fr.js"
+    },
+    {
+      "name": "resources/chart/langs/language_hi-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_hi.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_hi.js",
+      "module": "sap/viz/resources/chart/langs/language_hi.js"
+    },
+    {
+      "name": "resources/chart/langs/language_hr-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_hr.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_hr.js",
+      "module": "sap/viz/resources/chart/langs/language_hr.js"
+    },
+    {
+      "name": "resources/chart/langs/language_hu-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_hu.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_hu.js",
+      "module": "sap/viz/resources/chart/langs/language_hu.js"
+    },
+    {
+      "name": "resources/chart/langs/language_it-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_it.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_it.js",
+      "module": "sap/viz/resources/chart/langs/language_it.js"
+    },
+    {
+      "name": "resources/chart/langs/language_iw-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_iw.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_iw.js",
+      "module": "sap/viz/resources/chart/langs/language_iw.js"
+    },
+    {
+      "name": "resources/chart/langs/language_ja-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_ja.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_ja.js",
+      "module": "sap/viz/resources/chart/langs/language_ja.js"
+    },
+    {
+      "name": "resources/chart/langs/language_ko-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_ko.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_ko.js",
+      "module": "sap/viz/resources/chart/langs/language_ko.js"
+    },
+    {
+      "name": "resources/chart/langs/language_lt-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_lt.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_lt.js",
+      "module": "sap/viz/resources/chart/langs/language_lt.js"
+    },
+    {
+      "name": "resources/chart/langs/language_lv-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_lv.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_lv.js",
+      "module": "sap/viz/resources/chart/langs/language_lv.js"
+    },
+    {
+      "name": "resources/chart/langs/language_nl-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_nl.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_nl.js",
+      "module": "sap/viz/resources/chart/langs/language_nl.js"
+    },
+    {
+      "name": "resources/chart/langs/language_no-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_no.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_no.js",
+      "module": "sap/viz/resources/chart/langs/language_no.js"
+    },
+    {
+      "name": "resources/chart/langs/language_pl-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_pl.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_pl.js",
+      "module": "sap/viz/resources/chart/langs/language_pl.js"
+    },
+    {
+      "name": "resources/chart/langs/language_pt-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_pt.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_pt.js",
+      "module": "sap/viz/resources/chart/langs/language_pt.js"
+    },
+    {
+      "name": "resources/chart/langs/language_ro-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_ro.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_ro.js",
+      "module": "sap/viz/resources/chart/langs/language_ro.js"
+    },
+    {
+      "name": "resources/chart/langs/language_ru-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_ru.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_ru.js",
+      "module": "sap/viz/resources/chart/langs/language_ru.js"
+    },
+    {
+      "name": "resources/chart/langs/language_sh-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_sh.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_sh.js",
+      "module": "sap/viz/resources/chart/langs/language_sh.js"
+    },
+    {
+      "name": "resources/chart/langs/language_sk-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_sk.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_sk.js",
+      "module": "sap/viz/resources/chart/langs/language_sk.js"
+    },
+    {
+      "name": "resources/chart/langs/language_sl-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_sl.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_sl.js",
+      "module": "sap/viz/resources/chart/langs/language_sl.js"
+    },
+    {
+      "name": "resources/chart/langs/language_sv-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_sv.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_sv.js",
+      "module": "sap/viz/resources/chart/langs/language_sv.js"
+    },
+    {
+      "name": "resources/chart/langs/language_th-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_th.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_th.js",
+      "module": "sap/viz/resources/chart/langs/language_th.js"
+    },
+    {
+      "name": "resources/chart/langs/language_tr-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_tr.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_tr.js",
+      "module": "sap/viz/resources/chart/langs/language_tr.js"
+    },
+    {
+      "name": "resources/chart/langs/language_uk-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_uk.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_uk.js",
+      "module": "sap/viz/resources/chart/langs/language_uk.js"
+    },
+    {
+      "name": "resources/chart/langs/language_vi-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_vi.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_vi.js",
+      "module": "sap/viz/resources/chart/langs/language_vi.js"
+    },
+    {
+      "name": "resources/chart/langs/language_zh_CN-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_zh_CN.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_zh_CN.js",
+      "module": "sap/viz/resources/chart/langs/language_zh_CN.js"
+    },
+    {
+      "name": "resources/chart/langs/language_zh_TW-dbg.js",
+      "module": "sap/viz/resources/chart/langs/language_zh_TW.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/langs/language_zh_TW.js",
+      "module": "sap/viz/resources/chart/langs/language_zh_TW.js"
+    },
+    {
+      "name": "resources/chart/templates/standard_fiori/template-dbg.js",
+      "module": "sap/viz/resources/chart/templates/standard_fiori/template.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/chart/templates/standard_fiori/template.js",
+      "module": "sap/viz/resources/chart/templates/standard_fiori/template.js"
+    },
+    {
+      "name": "resources/framework/langs/language-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language.js",
+      "module": "sap/viz/resources/framework/langs/language.js"
+    },
+    {
+      "name": "resources/framework/langs/language_ar-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_ar.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_ar.js",
+      "module": "sap/viz/resources/framework/langs/language_ar.js"
+    },
+    {
+      "name": "resources/framework/langs/language_bg-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_bg.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_bg.js",
+      "module": "sap/viz/resources/framework/langs/language_bg.js"
+    },
+    {
+      "name": "resources/framework/langs/language_ca-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_ca.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_ca.js",
+      "module": "sap/viz/resources/framework/langs/language_ca.js"
+    },
+    {
+      "name": "resources/framework/langs/language_cs-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_cs.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_cs.js",
+      "module": "sap/viz/resources/framework/langs/language_cs.js"
+    },
+    {
+      "name": "resources/framework/langs/language_da-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_da.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_da.js",
+      "module": "sap/viz/resources/framework/langs/language_da.js"
+    },
+    {
+      "name": "resources/framework/langs/language_de-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_de.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_de.js",
+      "module": "sap/viz/resources/framework/langs/language_de.js"
+    },
+    {
+      "name": "resources/framework/langs/language_el-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_el.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_el.js",
+      "module": "sap/viz/resources/framework/langs/language_el.js"
+    },
+    {
+      "name": "resources/framework/langs/language_en-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_en.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_en.js",
+      "module": "sap/viz/resources/framework/langs/language_en.js"
+    },
+    {
+      "name": "resources/framework/langs/language_es-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_es.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_es.js",
+      "module": "sap/viz/resources/framework/langs/language_es.js"
+    },
+    {
+      "name": "resources/framework/langs/language_et-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_et.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_et.js",
+      "module": "sap/viz/resources/framework/langs/language_et.js"
+    },
+    {
+      "name": "resources/framework/langs/language_fi-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_fi.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_fi.js",
+      "module": "sap/viz/resources/framework/langs/language_fi.js"
+    },
+    {
+      "name": "resources/framework/langs/language_fr-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_fr.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_fr.js",
+      "module": "sap/viz/resources/framework/langs/language_fr.js"
+    },
+    {
+      "name": "resources/framework/langs/language_hi-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_hi.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_hi.js",
+      "module": "sap/viz/resources/framework/langs/language_hi.js"
+    },
+    {
+      "name": "resources/framework/langs/language_hr-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_hr.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_hr.js",
+      "module": "sap/viz/resources/framework/langs/language_hr.js"
+    },
+    {
+      "name": "resources/framework/langs/language_hu-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_hu.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_hu.js",
+      "module": "sap/viz/resources/framework/langs/language_hu.js"
+    },
+    {
+      "name": "resources/framework/langs/language_it-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_it.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_it.js",
+      "module": "sap/viz/resources/framework/langs/language_it.js"
+    },
+    {
+      "name": "resources/framework/langs/language_iw-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_iw.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_iw.js",
+      "module": "sap/viz/resources/framework/langs/language_iw.js"
+    },
+    {
+      "name": "resources/framework/langs/language_ja-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_ja.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_ja.js",
+      "module": "sap/viz/resources/framework/langs/language_ja.js"
+    },
+    {
+      "name": "resources/framework/langs/language_ko-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_ko.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_ko.js",
+      "module": "sap/viz/resources/framework/langs/language_ko.js"
+    },
+    {
+      "name": "resources/framework/langs/language_lt-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_lt.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_lt.js",
+      "module": "sap/viz/resources/framework/langs/language_lt.js"
+    },
+    {
+      "name": "resources/framework/langs/language_lv-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_lv.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_lv.js",
+      "module": "sap/viz/resources/framework/langs/language_lv.js"
+    },
+    {
+      "name": "resources/framework/langs/language_nl-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_nl.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_nl.js",
+      "module": "sap/viz/resources/framework/langs/language_nl.js"
+    },
+    {
+      "name": "resources/framework/langs/language_no-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_no.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_no.js",
+      "module": "sap/viz/resources/framework/langs/language_no.js"
+    },
+    {
+      "name": "resources/framework/langs/language_pl-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_pl.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_pl.js",
+      "module": "sap/viz/resources/framework/langs/language_pl.js"
+    },
+    {
+      "name": "resources/framework/langs/language_pt-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_pt.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_pt.js",
+      "module": "sap/viz/resources/framework/langs/language_pt.js"
+    },
+    {
+      "name": "resources/framework/langs/language_ro-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_ro.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_ro.js",
+      "module": "sap/viz/resources/framework/langs/language_ro.js"
+    },
+    {
+      "name": "resources/framework/langs/language_ru-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_ru.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_ru.js",
+      "module": "sap/viz/resources/framework/langs/language_ru.js"
+    },
+    {
+      "name": "resources/framework/langs/language_sh-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_sh.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_sh.js",
+      "module": "sap/viz/resources/framework/langs/language_sh.js"
+    },
+    {
+      "name": "resources/framework/langs/language_sk-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_sk.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_sk.js",
+      "module": "sap/viz/resources/framework/langs/language_sk.js"
+    },
+    {
+      "name": "resources/framework/langs/language_sl-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_sl.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_sl.js",
+      "module": "sap/viz/resources/framework/langs/language_sl.js"
+    },
+    {
+      "name": "resources/framework/langs/language_sv-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_sv.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_sv.js",
+      "module": "sap/viz/resources/framework/langs/language_sv.js"
+    },
+    {
+      "name": "resources/framework/langs/language_th-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_th.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_th.js",
+      "module": "sap/viz/resources/framework/langs/language_th.js"
+    },
+    {
+      "name": "resources/framework/langs/language_tr-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_tr.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_tr.js",
+      "module": "sap/viz/resources/framework/langs/language_tr.js"
+    },
+    {
+      "name": "resources/framework/langs/language_uk-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_uk.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_uk.js",
+      "module": "sap/viz/resources/framework/langs/language_uk.js"
+    },
+    {
+      "name": "resources/framework/langs/language_vi-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_vi.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_vi.js",
+      "module": "sap/viz/resources/framework/langs/language_vi.js"
+    },
+    {
+      "name": "resources/framework/langs/language_zh_CN-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_zh_CN.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_zh_CN.js",
+      "module": "sap/viz/resources/framework/langs/language_zh_CN.js"
+    },
+    {
+      "name": "resources/framework/langs/language_zh_TW-dbg.js",
+      "module": "sap/viz/resources/framework/langs/language_zh_TW.js",
+      "isDebug": true
+    },
+    {
+      "name": "resources/framework/langs/language_zh_TW.js",
+      "module": "sap/viz/resources/framework/langs/language_zh_TW.js"
+    },
+    {
+      "name": "themes/base/.theming",
+      "theme": "base"
+    },
+    {
+      "name": "themes/base/library-RTL-dbg.css",
+      "isDebug": true,
+      "theme": "base"
+    },
+    {
+      "name": "themes/base/library-RTL.css",
+      "theme": "base"
+    },
+    {
+      "name": "themes/base/library-dbg.css",
+      "isDebug": true,
+      "theme": "base"
+    },
+    {
+      "name": "themes/base/library-parameters.json",
+      "theme": "base"
+    },
+    {
+      "name": "themes/base/library.css",
+      "theme": "base"
+    },
+    {
+      "name": "themes/base/library.less",
+      "designtime": true,
+      "theme": "base"
+    },
+    {
+      "name": "themes/base/library.source.less",
+      "designtime": true,
+      "theme": "base"
+    },
+    {
+      "name": "themes/base/shared.less",
+      "designtime": true,
+      "theme": "base"
+    },
+    {
+      "name": "themes/sap_belize/.theming",
+      "theme": "sap_belize"
+    },
+    {
+      "name": "themes/sap_belize/library-RTL-dbg.css",
+      "isDebug": true,
+      "theme": "sap_belize"
+    },
+    {
+      "name": "themes/sap_belize/library-RTL.css",
+      "theme": "sap_belize"
+    },
+    {
+      "name": "themes/sap_belize/library-dbg.css",
+      "isDebug": true,
+      "theme": "sap_belize"
+    },
+    {
+      "name": "themes/sap_belize/library-parameters.json",
+      "theme": "sap_belize"
+    },
+    {
+      "name": "themes/sap_belize/library.css",
+      "theme": "sap_belize"
+    },
+    {
+      "name": "themes/sap_belize/library.less",
+      "designtime": true,
+      "theme": "sap_belize"
+    },
+    {
+      "name": "themes/sap_belize/library.source.less",
+      "designtime": true,
+      "theme": "sap_belize"
+    },
+    {
+      "name": "themes/sap_belize_plus/.theming",
+      "theme": "sap_belize_plus"
+    },
+    {
+      "name": "themes/sap_belize_plus/library-RTL-dbg.css",
+      "isDebug": true,
+      "theme": "sap_belize_plus"
+    },
+    {
+      "name": "themes/sap_belize_plus/library-RTL.css",
+      "theme": "sap_belize_plus"
+    },
+    {
+      "name": "themes/sap_belize_plus/library-dbg.css",
+      "isDebug": true,
+      "theme": "sap_belize_plus"
+    },
+    {
+      "name": "themes/sap_belize_plus/library-parameters.json",
+      "theme": "sap_belize_plus"
+    },
+    {
+      "name": "themes/sap_belize_plus/library.css",
+      "theme": "sap_belize_plus"
+    },
+    {
+      "name": "themes/sap_belize_plus/library.less",
+      "designtime": true,
+      "theme": "sap_belize_plus"
+    },
+    {
+      "name": "themes/sap_belize_plus/library.source.less",
+      "designtime": true,
+      "theme": "sap_belize_plus"
+    },
+    {
+      "name": "themes/sap_bluecrystal/.theming",
+      "theme": "sap_bluecrystal"
+    },
+    {
+      "name": "themes/sap_bluecrystal/library-RTL-dbg.css",
+      "isDebug": true,
+      "theme": "sap_bluecrystal"
+    },
+    {
+      "name": "themes/sap_bluecrystal/library-RTL.css",
+      "theme": "sap_bluecrystal"
+    },
+    {
+      "name": "themes/sap_bluecrystal/library-dbg.css",
+      "isDebug": true,
+      "theme": "sap_bluecrystal"
+    },
+    {
+      "name": "themes/sap_bluecrystal/library-parameters.json",
+      "theme": "sap_bluecrystal"
+    },
+    {
+      "name": "themes/sap_bluecrystal/library.css",
+      "theme": "sap_bluecrystal"
+    },
+    {
+      "name": "themes/sap_bluecrystal/library.less",
+      "designtime": true,
+      "theme": "sap_bluecrystal"
+    },
+    {
+      "name": "themes/sap_bluecrystal/library.source.less",
+      "designtime": true,
+      "theme": "sap_bluecrystal"
+    },
+    {
+      "name": "themes/sap_goldreflection/.theming",
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_goldreflection/library-RTL-dbg.css",
+      "isDebug": true,
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_goldreflection/library-RTL.css",
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_goldreflection/library-dbg.css",
+      "isDebug": true,
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_goldreflection/library-parameters.json",
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_goldreflection/library.css",
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_goldreflection/library.less",
+      "designtime": true,
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_goldreflection/library.source.less",
+      "designtime": true,
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_goldreflection/shared.less",
+      "designtime": true,
+      "theme": "sap_goldreflection"
+    },
+    {
+      "name": "themes/sap_hcb/.theming",
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_hcb/library-RTL-dbg.css",
+      "isDebug": true,
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_hcb/library-RTL.css",
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_hcb/library-dbg.css",
+      "isDebug": true,
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_hcb/library-parameters.json",
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_hcb/library.css",
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_hcb/library.less",
+      "designtime": true,
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_hcb/library.source.less",
+      "designtime": true,
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_hcb/shared.less",
+      "designtime": true,
+      "theme": "sap_hcb"
+    },
+    {
+      "name": "themes/sap_platinum/.theming",
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "themes/sap_platinum/library-RTL-dbg.css",
+      "isDebug": true,
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "themes/sap_platinum/library-RTL.css",
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "themes/sap_platinum/library-dbg.css",
+      "isDebug": true,
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "themes/sap_platinum/library-parameters.json",
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "themes/sap_platinum/library.css",
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "themes/sap_platinum/library.less",
+      "designtime": true,
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "themes/sap_platinum/library.source.less",
+      "designtime": true,
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "themes/sap_platinum/shared.less",
+      "designtime": true,
+      "theme": "sap_platinum"
+    },
+    {
+      "name": "ui5/Area-dbg.js",
+      "module": "sap/viz/ui5/Area.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Area.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Area.js",
+      "module": "sap/viz/ui5/Area.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Area100-dbg.js",
+      "module": "sap/viz/ui5/Area100.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Area100.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Area100.js",
+      "module": "sap/viz/ui5/Area100.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Area100Renderer-dbg.js",
+      "module": "sap/viz/ui5/Area100Renderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Area100.js"
+      ]
+    },
+    {
+      "name": "ui5/Area100Renderer.js",
+      "module": "sap/viz/ui5/Area100Renderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Area100.js"
+      ]
+    },
+    {
+      "name": "ui5/AreaRenderer-dbg.js",
+      "module": "sap/viz/ui5/AreaRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Area.js"
+      ]
+    },
+    {
+      "name": "ui5/AreaRenderer.js",
+      "module": "sap/viz/ui5/AreaRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Area.js"
+      ]
+    },
+    {
+      "name": "ui5/Bar-dbg.js",
+      "module": "sap/viz/ui5/Bar.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Bar.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Bar.js",
+      "module": "sap/viz/ui5/Bar.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/BarRenderer-dbg.js",
+      "module": "sap/viz/ui5/BarRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Bar.js"
+      ]
+    },
+    {
+      "name": "ui5/BarRenderer.js",
+      "module": "sap/viz/ui5/BarRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Bar.js"
+      ]
+    },
+    {
+      "name": "ui5/Bubble-dbg.js",
+      "module": "sap/viz/ui5/Bubble.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Bubble.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Bubble.js",
+      "module": "sap/viz/ui5/Bubble.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/BubbleRenderer-dbg.js",
+      "module": "sap/viz/ui5/BubbleRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Bubble.js"
+      ]
+    },
+    {
+      "name": "ui5/BubbleRenderer.js",
+      "module": "sap/viz/ui5/BubbleRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Bubble.js"
+      ]
+    },
+    {
+      "name": "ui5/Bullet-dbg.js",
+      "module": "sap/viz/ui5/Bullet.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Bullet.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Bullet.js",
+      "module": "sap/viz/ui5/Bullet.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/BulletRenderer-dbg.js",
+      "module": "sap/viz/ui5/BulletRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Bullet.js"
+      ]
+    },
+    {
+      "name": "ui5/BulletRenderer.js",
+      "module": "sap/viz/ui5/BulletRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Bullet.js"
+      ]
+    },
+    {
+      "name": "ui5/Column-dbg.js",
+      "module": "sap/viz/ui5/Column.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Column.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Column.js",
+      "module": "sap/viz/ui5/Column.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/ColumnRenderer-dbg.js",
+      "module": "sap/viz/ui5/ColumnRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Column.js"
+      ]
+    },
+    {
+      "name": "ui5/ColumnRenderer.js",
+      "module": "sap/viz/ui5/ColumnRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Column.js"
+      ]
+    },
+    {
+      "name": "ui5/Combination-dbg.js",
+      "module": "sap/viz/ui5/Combination.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Combination.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Combination.js",
+      "module": "sap/viz/ui5/Combination.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/CombinationRenderer-dbg.js",
+      "module": "sap/viz/ui5/CombinationRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Combination.js"
+      ]
+    },
+    {
+      "name": "ui5/CombinationRenderer.js",
+      "module": "sap/viz/ui5/CombinationRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Combination.js"
+      ]
+    },
+    {
+      "name": "ui5/Donut-dbg.js",
+      "module": "sap/viz/ui5/Donut.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Donut.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Donut.js",
+      "module": "sap/viz/ui5/Donut.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DonutRenderer-dbg.js",
+      "module": "sap/viz/ui5/DonutRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Donut.js"
+      ]
+    },
+    {
+      "name": "ui5/DonutRenderer.js",
+      "module": "sap/viz/ui5/DonutRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Donut.js"
+      ]
+    },
+    {
+      "name": "ui5/DualBar-dbg.js",
+      "module": "sap/viz/ui5/DualBar.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualBar.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/DualBar.js",
+      "module": "sap/viz/ui5/DualBar.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualBarRenderer-dbg.js",
+      "module": "sap/viz/ui5/DualBarRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualBar.js"
+      ]
+    },
+    {
+      "name": "ui5/DualBarRenderer.js",
+      "module": "sap/viz/ui5/DualBarRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualBar.js"
+      ]
+    },
+    {
+      "name": "ui5/DualColumn-dbg.js",
+      "module": "sap/viz/ui5/DualColumn.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualColumn.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/DualColumn.js",
+      "module": "sap/viz/ui5/DualColumn.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualColumnRenderer-dbg.js",
+      "module": "sap/viz/ui5/DualColumnRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualColumn.js"
+      ]
+    },
+    {
+      "name": "ui5/DualColumnRenderer.js",
+      "module": "sap/viz/ui5/DualColumnRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualColumn.js"
+      ]
+    },
+    {
+      "name": "ui5/DualCombination-dbg.js",
+      "module": "sap/viz/ui5/DualCombination.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualCombination.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/DualCombination.js",
+      "module": "sap/viz/ui5/DualCombination.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualCombinationRenderer-dbg.js",
+      "module": "sap/viz/ui5/DualCombinationRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualCombination.js"
+      ]
+    },
+    {
+      "name": "ui5/DualCombinationRenderer.js",
+      "module": "sap/viz/ui5/DualCombinationRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualCombination.js"
+      ]
+    },
+    {
+      "name": "ui5/DualLine-dbg.js",
+      "module": "sap/viz/ui5/DualLine.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualLine.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/DualLine.js",
+      "module": "sap/viz/ui5/DualLine.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualLineRenderer-dbg.js",
+      "module": "sap/viz/ui5/DualLineRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualLine.js"
+      ]
+    },
+    {
+      "name": "ui5/DualLineRenderer.js",
+      "module": "sap/viz/ui5/DualLineRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualLine.js"
+      ]
+    },
+    {
+      "name": "ui5/DualStackedColumn-dbg.js",
+      "module": "sap/viz/ui5/DualStackedColumn.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualStackedColumn.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/DualStackedColumn.js",
+      "module": "sap/viz/ui5/DualStackedColumn.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualStackedColumn100-dbg.js",
+      "module": "sap/viz/ui5/DualStackedColumn100.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualStackedColumn100.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/DualStackedColumn100.js",
+      "module": "sap/viz/ui5/DualStackedColumn100.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/DualStackedColumn100Renderer-dbg.js",
+      "module": "sap/viz/ui5/DualStackedColumn100Renderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualStackedColumn100.js"
+      ]
+    },
+    {
+      "name": "ui5/DualStackedColumn100Renderer.js",
+      "module": "sap/viz/ui5/DualStackedColumn100Renderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualStackedColumn100.js"
+      ]
+    },
+    {
+      "name": "ui5/DualStackedColumnRenderer-dbg.js",
+      "module": "sap/viz/ui5/DualStackedColumnRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualStackedColumn.js"
+      ]
+    },
+    {
+      "name": "ui5/DualStackedColumnRenderer.js",
+      "module": "sap/viz/ui5/DualStackedColumnRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/DualStackedColumn.js"
+      ]
+    },
+    {
+      "name": "ui5/Heatmap-dbg.js",
+      "module": "sap/viz/ui5/Heatmap.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Heatmap.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Heatmap.js",
+      "module": "sap/viz/ui5/Heatmap.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/HeatmapRenderer-dbg.js",
+      "module": "sap/viz/ui5/HeatmapRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Heatmap.js"
+      ]
+    },
+    {
+      "name": "ui5/HeatmapRenderer.js",
+      "module": "sap/viz/ui5/HeatmapRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Heatmap.js"
+      ]
+    },
+    {
+      "name": "ui5/HorizontalArea-dbg.js",
+      "module": "sap/viz/ui5/HorizontalArea.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/HorizontalArea.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/HorizontalArea.js",
+      "module": "sap/viz/ui5/HorizontalArea.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/HorizontalArea100-dbg.js",
+      "module": "sap/viz/ui5/HorizontalArea100.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/HorizontalArea100.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/HorizontalArea100.js",
+      "module": "sap/viz/ui5/HorizontalArea100.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/HorizontalArea100Renderer-dbg.js",
+      "module": "sap/viz/ui5/HorizontalArea100Renderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/HorizontalArea100.js"
+      ]
+    },
+    {
+      "name": "ui5/HorizontalArea100Renderer.js",
+      "module": "sap/viz/ui5/HorizontalArea100Renderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/HorizontalArea100.js"
+      ]
+    },
+    {
+      "name": "ui5/HorizontalAreaRenderer-dbg.js",
+      "module": "sap/viz/ui5/HorizontalAreaRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/HorizontalArea.js"
+      ]
+    },
+    {
+      "name": "ui5/HorizontalAreaRenderer.js",
+      "module": "sap/viz/ui5/HorizontalAreaRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/HorizontalArea.js"
+      ]
+    },
+    {
+      "name": "ui5/Line-dbg.js",
+      "module": "sap/viz/ui5/Line.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Line.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Line.js",
+      "module": "sap/viz/ui5/Line.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/LineRenderer-dbg.js",
+      "module": "sap/viz/ui5/LineRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Line.js"
+      ]
+    },
+    {
+      "name": "ui5/LineRenderer.js",
+      "module": "sap/viz/ui5/LineRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Line.js"
+      ]
+    },
+    {
+      "name": "ui5/Pie-dbg.js",
+      "module": "sap/viz/ui5/Pie.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Pie.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Pie.js",
+      "module": "sap/viz/ui5/Pie.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/PieRenderer-dbg.js",
+      "module": "sap/viz/ui5/PieRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Pie.js"
+      ]
+    },
+    {
+      "name": "ui5/PieRenderer.js",
+      "module": "sap/viz/ui5/PieRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Pie.js"
+      ]
+    },
+    {
+      "name": "ui5/Scatter-dbg.js",
+      "module": "sap/viz/ui5/Scatter.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Scatter.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Scatter.js",
+      "module": "sap/viz/ui5/Scatter.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/ScatterRenderer-dbg.js",
+      "module": "sap/viz/ui5/ScatterRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Scatter.js"
+      ]
+    },
+    {
+      "name": "ui5/ScatterRenderer.js",
+      "module": "sap/viz/ui5/ScatterRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Scatter.js"
+      ]
+    },
+    {
+      "name": "ui5/StackedColumn-dbg.js",
+      "module": "sap/viz/ui5/StackedColumn.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/StackedColumn.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/StackedColumn.js",
+      "module": "sap/viz/ui5/StackedColumn.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/StackedColumn100-dbg.js",
+      "module": "sap/viz/ui5/StackedColumn100.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/StackedColumn100.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/StackedColumn100.js",
+      "module": "sap/viz/ui5/StackedColumn100.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/StackedColumn100Renderer-dbg.js",
+      "module": "sap/viz/ui5/StackedColumn100Renderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/StackedColumn100.js"
+      ]
+    },
+    {
+      "name": "ui5/StackedColumn100Renderer.js",
+      "module": "sap/viz/ui5/StackedColumn100Renderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/StackedColumn100.js"
+      ]
+    },
+    {
+      "name": "ui5/StackedColumnRenderer-dbg.js",
+      "module": "sap/viz/ui5/StackedColumnRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/StackedColumn.js"
+      ]
+    },
+    {
+      "name": "ui5/StackedColumnRenderer.js",
+      "module": "sap/viz/ui5/StackedColumnRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/StackedColumn.js"
+      ]
+    },
+    {
+      "name": "ui5/TimeBubble-dbg.js",
+      "module": "sap/viz/ui5/TimeBubble.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/TimeBubble.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/TimeBubble.js",
+      "module": "sap/viz/ui5/TimeBubble.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/TimeBubbleRenderer-dbg.js",
+      "module": "sap/viz/ui5/TimeBubbleRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/TimeBubble.js"
+      ]
+    },
+    {
+      "name": "ui5/TimeBubbleRenderer.js",
+      "module": "sap/viz/ui5/TimeBubbleRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/TimeBubble.js"
+      ]
+    },
+    {
+      "name": "ui5/Treemap-dbg.js",
+      "module": "sap/viz/ui5/Treemap.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/Treemap.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/Treemap.js",
+      "module": "sap/viz/ui5/Treemap.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChart.js"
+      ]
+    },
+    {
+      "name": "ui5/TreemapRenderer-dbg.js",
+      "module": "sap/viz/ui5/TreemapRenderer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Treemap.js"
+      ]
+    },
+    {
+      "name": "ui5/TreemapRenderer.js",
+      "module": "sap/viz/ui5/TreemapRenderer.js",
+      "required": [
+        "sap/viz/ui5/core/BaseChartRenderer.js",
+        "sap/viz/ui5/Treemap.js"
+      ]
+    },
+    {
+      "name": "ui5/VizContainer-dbg.js",
+      "module": "sap/viz/ui5/VizContainer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/libs/sap-viz.js",
+        "sap/viz/ui5/container/libs/common/libs/rgbcolor/rgbcolor_static.js",
+        "sap/viz/ui5/container/libs/sap-viz-controls-vizcontainer.js",
+        "sap/viz/ui5/controls/common/BaseControl.js",
+        "sap/viz/ui5/controls/common/feeds/AnalysisObject.js",
+        "sap/viz/ui5/controls/common/feeds/FeedItem.js",
+        "sap/viz/ui5/controls/common/helpers/VizControlsHelper.js"
+      ]
+    },
+    {
+      "name": "ui5/VizContainer.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/VizContainer.js",
+      "module": "sap/viz/ui5/VizContainer.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/libs/sap-viz.js",
+        "sap/viz/ui5/container/libs/common/libs/rgbcolor/rgbcolor_static.js",
+        "sap/viz/ui5/container/libs/sap-viz-controls-vizcontainer.js",
+        "sap/viz/ui5/controls/common/BaseControl.js",
+        "sap/viz/ui5/controls/common/feeds/AnalysisObject.js",
+        "sap/viz/ui5/controls/common/feeds/FeedItem.js",
+        "sap/viz/ui5/controls/common/helpers/VizControlsHelper.js"
+      ]
+    },
+    {
+      "name": "ui5/VizContainerRenderer-dbg.js",
+      "module": "sap/viz/ui5/VizContainerRenderer.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/VizContainerRenderer.js",
+      "module": "sap/viz/ui5/VizContainerRenderer.js"
+    },
+    {
+      "name": "ui5/api/env/Format-dbg.js",
+      "module": "sap/viz/ui5/api/env/Format.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/api/env/Format.js",
+      "module": "sap/viz/ui5/api/env/Format.js"
+    },
+    {
+      "name": "ui5/container/libs/common/assets/UVB_SharedSprite.png"
+    },
+    {
+      "name": "ui5/container/libs/common/assets/UVB_SharedSprite2.png"
+    },
+    {
+      "name": "ui5/container/libs/common/assets/UVB_VxtabSprite.png"
+    },
+    {
+      "name": "ui5/container/libs/common/libs/RaphaelJS/license.txt"
+    },
+    {
+      "name": "ui5/container/libs/common/libs/rgbcolor/rgbcolor_static-dbg.js",
+      "module": "sap/viz/ui5/container/libs/common/libs/rgbcolor/rgbcolor_static.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/common/libs/rgbcolor/rgbcolor_static.js",
+      "module": "sap/viz/ui5/container/libs/common/libs/rgbcolor/rgbcolor_static.js"
+    },
+    {
+      "name": "ui5/container/libs/controls/switchbar/assets/UVB_ChartSwitchSprite.png"
+    },
+    {
+      "name": "ui5/container/libs/css/sap.viz.controls.css"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ar-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ar.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ar.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ar.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_cs-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_cs.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_cs.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_cs.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_da-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_da.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_da.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_da.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_de-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_de.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_de.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_de.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_en-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_en.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_en.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_en.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_es-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_es.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_es.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_es.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_fi-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_fi.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_fi.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_fi.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_fr-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_fr.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_fr.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_fr.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_he-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_he.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_he.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_he.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_hu-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_hu.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_hu.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_hu.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_is-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_is.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_is.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_is.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_it-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_it.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_it.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_it.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ja-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ja.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ja.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ja.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ko-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ko.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ko.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ko.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_nb-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_nb.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_nb.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_nb.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_nl-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_nl.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_nl.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_nl.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_pl-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_pl.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_pl.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_pl.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_pt-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_pt.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_pt.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_pt.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ro-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ro.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ro.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ro.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ru-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ru.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_ru.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_ru.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_sk-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_sk.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_sk.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_sk.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_sl-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_sl.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_sl.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_sl.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_sv-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_sv.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_sv.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_sv.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_th-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_th.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_th.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_th.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_tr-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_tr.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_tr.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_tr.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_zh_CN-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_zh_CN.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_zh_CN.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_zh_CN.js"
+    },
+    {
+      "name": "ui5/container/libs/locale/language_zh_TW-dbg.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_zh_TW.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/locale/language_zh_TW.js",
+      "module": "sap/viz/ui5/container/libs/locale/language_zh_TW.js"
+    },
+    {
+      "name": "ui5/container/libs/sap-viz-controls-vizcontainer-dbg.js",
+      "module": "sap/viz/ui5/container/libs/sap-viz-controls-vizcontainer.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/container/libs/sap-viz-controls-vizcontainer.js",
+      "module": "sap/viz/ui5/container/libs/sap-viz-controls-vizcontainer.js"
+    },
+    {
+      "name": "ui5/controls/Popover-dbg.js",
+      "module": "sap/viz/ui5/controls/Popover.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/layout/Grid.js",
+        "sap/ui/layout/form/SimpleForm.js",
+        "sap/viz/library.js",
+        "sap/viz/ui5/controls/common/BaseControl.js",
+        "sap/viz/ui5/controls/chartpopover/ChartPopover.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/Popover.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/controls/Popover.js",
+      "module": "sap/viz/ui5/controls/Popover.js",
+      "required": [
+        "sap/ui/layout/Grid.js",
+        "sap/ui/layout/form/SimpleForm.js",
+        "sap/viz/library.js",
+        "sap/viz/ui5/controls/common/BaseControl.js",
+        "sap/viz/ui5/controls/chartpopover/ChartPopover.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/PopoverRenderer-dbg.js",
+      "module": "sap/viz/ui5/controls/PopoverRenderer.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/PopoverRenderer.js",
+      "module": "sap/viz/ui5/controls/PopoverRenderer.js"
+    },
+    {
+      "name": "ui5/controls/ResponsiveLegend-dbg.js",
+      "module": "sap/viz/ui5/controls/ResponsiveLegend.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/ResponsiveLegend.js",
+      "module": "sap/viz/ui5/controls/ResponsiveLegend.js"
+    },
+    {
+      "name": "ui5/controls/VizFrame-dbg.js",
+      "module": "sap/viz/ui5/controls/VizFrame.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/ui/core/theming/Parameters.js",
+        "sap/viz/ui5/theming/Util.js",
+        "sap/viz/ui5/controls/ResponsiveLegend.js",
+        "sap/viz/ui5/controls/common/BaseControl.js",
+        "sap/viz/ui5/controls/common/feeds/AnalysisObject.js",
+        "sap/viz/ui5/controls/common/feeds/FeedItem.js",
+        "sap/viz/ui5/controls/common/helpers/VizControlsHelper.js",
+        "sap/viz/ui5/controls/common/helpers/VizFrameOptionsHelper.js",
+        "sap/viz/ui5/controls/common/helpers/DefaultPropertiesHelper.js",
+        "sap/ui/Device.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/VizFrame.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/controls/VizFrame.js",
+      "module": "sap/viz/ui5/controls/VizFrame.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/ui/core/theming/Parameters.js",
+        "sap/viz/ui5/theming/Util.js",
+        "sap/viz/ui5/controls/ResponsiveLegend.js",
+        "sap/viz/ui5/controls/common/BaseControl.js",
+        "sap/viz/ui5/controls/common/feeds/AnalysisObject.js",
+        "sap/viz/ui5/controls/common/feeds/FeedItem.js",
+        "sap/viz/ui5/controls/common/helpers/VizControlsHelper.js",
+        "sap/viz/ui5/controls/common/helpers/VizFrameOptionsHelper.js",
+        "sap/viz/ui5/controls/common/helpers/DefaultPropertiesHelper.js",
+        "sap/ui/Device.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/VizFrameRenderer-dbg.js",
+      "module": "sap/viz/ui5/controls/VizFrameRenderer.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/VizFrameRenderer.js",
+      "module": "sap/viz/ui5/controls/VizFrameRenderer.js"
+    },
+    {
+      "name": "ui5/controls/VizTooltip-dbg.js",
+      "module": "sap/viz/ui5/controls/VizTooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/controls/common/BaseControl.js",
+        "sap/viz/ui5/controls/charttooltip/TooltipContainer.js",
+        "sap/ui/core/Popup.js",
+        "sap/viz/ui5/controls/common/utils/FormatDataUtil.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/VizTooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/controls/VizTooltip.js",
+      "module": "sap/viz/ui5/controls/VizTooltip.js",
+      "required": [
+        "sap/viz/ui5/controls/common/BaseControl.js",
+        "sap/viz/ui5/controls/charttooltip/TooltipContainer.js",
+        "sap/ui/core/Popup.js",
+        "sap/viz/ui5/controls/common/utils/FormatDataUtil.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/ChartPopover-dbg.js",
+      "module": "sap/viz/ui5/controls/chartpopover/ChartPopover.js",
+      "isDebug": true,
+      "required": [
+        "jquery.sap.global.js",
+        "sap/viz/ui5/controls/chartpopover/ContentPanel.js",
+        "sap/viz/ui5/controls/chartpopover/HeaderBar.js",
+        "sap/viz/ui5/controls/chartpopover/SubActionItemsPage.js",
+        "sap/ui/core/Control.js",
+        "sap/viz/ui5/format/ChartFormatter.js",
+        "sap/viz/ui5/controls/common/utils/FormatDataUtil.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/ChartPopover.js",
+      "module": "sap/viz/ui5/controls/chartpopover/ChartPopover.js",
+      "required": [
+        "jquery.sap.global.js",
+        "sap/viz/ui5/controls/chartpopover/ContentPanel.js",
+        "sap/viz/ui5/controls/chartpopover/HeaderBar.js",
+        "sap/viz/ui5/controls/chartpopover/SubActionItemsPage.js",
+        "sap/ui/core/Control.js",
+        "sap/viz/ui5/format/ChartFormatter.js",
+        "sap/viz/ui5/controls/common/utils/FormatDataUtil.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/ContentPanel-dbg.js",
+      "module": "sap/viz/ui5/controls/chartpopover/ContentPanel.js",
+      "isDebug": true,
+      "required": [
+        "jquery.sap.global.js",
+        "sap/viz/ui5/controls/chartpopover/ShapeMarker.js",
+        "sap/ui/core/Control.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/ContentPanel.js",
+      "module": "sap/viz/ui5/controls/chartpopover/ContentPanel.js",
+      "required": [
+        "jquery.sap.global.js",
+        "sap/viz/ui5/controls/chartpopover/ShapeMarker.js",
+        "sap/ui/core/Control.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/HeaderBar-dbg.js",
+      "module": "sap/viz/ui5/controls/chartpopover/HeaderBar.js",
+      "isDebug": true,
+      "required": [
+        "jquery.sap.global.js",
+        "sap/m/Bar.js",
+        "sap/m/Button.js",
+        "sap/m/Label.js",
+        "sap/ui/core/IconPool.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/HeaderBar.js",
+      "module": "sap/viz/ui5/controls/chartpopover/HeaderBar.js",
+      "required": [
+        "jquery.sap.global.js",
+        "sap/m/Bar.js",
+        "sap/m/Button.js",
+        "sap/m/Label.js",
+        "sap/ui/core/IconPool.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/ShapeMarker-dbg.js",
+      "module": "sap/viz/ui5/controls/chartpopover/ShapeMarker.js",
+      "isDebug": true,
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/Control.js",
+        "sap/ui/core/theming/Parameters.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/ShapeMarker.js",
+      "module": "sap/viz/ui5/controls/chartpopover/ShapeMarker.js",
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/Control.js",
+        "sap/ui/core/theming/Parameters.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/SubActionItemsPage-dbg.js",
+      "module": "sap/viz/ui5/controls/chartpopover/SubActionItemsPage.js",
+      "isDebug": true,
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/Control.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/chartpopover/SubActionItemsPage.js",
+      "module": "sap/viz/ui5/controls/chartpopover/SubActionItemsPage.js",
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/Control.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/charttooltip/ContentPanel-dbg.js",
+      "module": "sap/viz/ui5/controls/charttooltip/ContentPanel.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Control.js",
+        "sap/ui/layout/VerticalLayout.js",
+        "sap/ui/layout/HorizontalLayout.js",
+        "sap/m/Label.js",
+        "sap/m/Text.js",
+        "sap/m/ObjectNumber.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/charttooltip/ContentPanel.js",
+      "module": "sap/viz/ui5/controls/charttooltip/ContentPanel.js",
+      "required": [
+        "sap/ui/core/Control.js",
+        "sap/ui/layout/VerticalLayout.js",
+        "sap/ui/layout/HorizontalLayout.js",
+        "sap/m/Label.js",
+        "sap/m/Text.js",
+        "sap/m/ObjectNumber.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/charttooltip/TooltipContainer-dbg.js",
+      "module": "sap/viz/ui5/controls/charttooltip/TooltipContainer.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Control.js",
+        "sap/viz/ui5/controls/charttooltip/ContentPanel.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/charttooltip/TooltipContainer.js",
+      "module": "sap/viz/ui5/controls/charttooltip/TooltipContainer.js",
+      "required": [
+        "sap/ui/core/Control.js",
+        "sap/viz/ui5/controls/charttooltip/ContentPanel.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/BaseControl-dbg.js",
+      "module": "sap/viz/ui5/controls/common/BaseControl.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Control.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/BaseControl.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/controls/common/BaseControl.js",
+      "module": "sap/viz/ui5/controls/common/BaseControl.js",
+      "required": [
+        "sap/ui/core/Control.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/BaseControlRenderer-dbg.js",
+      "module": "sap/viz/ui5/controls/common/BaseControlRenderer.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/common/BaseControlRenderer.js",
+      "module": "sap/viz/ui5/controls/common/BaseControlRenderer.js"
+    },
+    {
+      "name": "ui5/controls/common/feeds/AnalysisObject-dbg.js",
+      "module": "sap/viz/ui5/controls/common/feeds/AnalysisObject.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/feeds/AnalysisObject.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/controls/common/feeds/AnalysisObject.js",
+      "module": "sap/viz/ui5/controls/common/feeds/AnalysisObject.js",
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/feeds/FeedItem-dbg.js",
+      "module": "sap/viz/ui5/controls/common/feeds/FeedItem.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js",
+        "sap/viz/ui5/controls/common/feeds/AnalysisObject.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/feeds/FeedItem.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/controls/common/feeds/FeedItem.js",
+      "module": "sap/viz/ui5/controls/common/feeds/FeedItem.js",
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js",
+        "sap/viz/ui5/controls/common/feeds/AnalysisObject.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/helpers/DefaultPropertiesHelper-dbg.js",
+      "module": "sap/viz/ui5/controls/common/helpers/DefaultPropertiesHelper.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/ui5/format/ChartFormatter.js",
+        "sap/ui/Device.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/helpers/DefaultPropertiesHelper.js",
+      "module": "sap/viz/ui5/controls/common/helpers/DefaultPropertiesHelper.js",
+      "required": [
+        "sap/viz/ui5/format/ChartFormatter.js",
+        "sap/ui/Device.js"
+      ]
+    },
+    {
+      "name": "ui5/controls/common/helpers/VizControlsHelper-dbg.js",
+      "module": "sap/viz/ui5/controls/common/helpers/VizControlsHelper.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/common/helpers/VizControlsHelper.js",
+      "module": "sap/viz/ui5/controls/common/helpers/VizControlsHelper.js"
+    },
+    {
+      "name": "ui5/controls/common/helpers/VizFrameOptionsHelper-dbg.js",
+      "module": "sap/viz/ui5/controls/common/helpers/VizFrameOptionsHelper.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/common/helpers/VizFrameOptionsHelper.js",
+      "module": "sap/viz/ui5/controls/common/helpers/VizFrameOptionsHelper.js"
+    },
+    {
+      "name": "ui5/controls/common/utils/FormatDataUtil-dbg.js",
+      "module": "sap/viz/ui5/controls/common/utils/FormatDataUtil.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/common/utils/FormatDataUtil.js",
+      "module": "sap/viz/ui5/controls/common/utils/FormatDataUtil.js"
+    },
+    {
+      "name": "ui5/controls/css/controls.css"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_de-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_de.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_de.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_de.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_en-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_en.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_en.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_en.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_es-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_es.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_es.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_es.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_fr-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_fr.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_fr.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_fr.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_hu-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_hu.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_hu.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_hu.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_ja-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_ja.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_ja.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_ja.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_ko-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_ko.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_ko.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_ko.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_pl-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_pl.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_pl.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_pl.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_pt-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_pt.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_pt.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_pt.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_ru-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_ru.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_ru.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_ru.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_zh_CN-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_zh_CN.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_zh_CN.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_zh_CN.js"
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_zh_TW-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_zh_TW.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/resources/locale/language_zh_TW.js",
+      "module": "sap/viz/ui5/controls/libs/resources/locale/language_zh_TW.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ar-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ar.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ar.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ar.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_bg-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_bg.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_bg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_bg.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ca-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ca.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ca.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ca.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_cs-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_cs.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_cs.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_cs.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_da-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_da.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_da.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_da.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_de-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_de.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_de.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_de.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_el-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_el.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_el.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_el.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_en-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_en.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_en.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_en.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_es-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_es.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_es.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_es.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_et-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_et.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_et.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_et.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_fi-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_fi.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_fi.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_fi.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_fr-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_fr.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_fr.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_fr.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hi-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hi.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hi.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hi.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hr-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hr.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hr.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hr.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hu-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hu.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hu.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_hu.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_it-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_it.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_it.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_it.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_iw-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_iw.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_iw.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_iw.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ja-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ja.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ja.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ja.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ko-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ko.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ko.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ko.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_lt-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_lt.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_lt.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_lt.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_lv-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_lv.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_lv.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_lv.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_nl-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_nl.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_nl.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_nl.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_no-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_no.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_no.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_no.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_pl-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_pl.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_pl.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_pl.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_pt-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_pt.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_pt.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_pt.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ro-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ro.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ro.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ro.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ru-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ru.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ru.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_ru.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sh-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sh.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sh.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sh.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sk-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sk.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sk.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sk.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sl-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sl.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sl.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sl.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sv-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sv.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sv.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_sv.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_th-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_th.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_th.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_th.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_tr-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_tr.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_tr.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_tr.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_uk-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_uk.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_uk.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_uk.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_vi-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_vi.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_vi.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_vi.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_zh_CN-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_zh_CN.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_zh_CN.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_zh_CN.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_zh_TW-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_zh_TW.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/resources/locale/language_zh_TW.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_zh_TW.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/sap-viz-vizframe-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/sap-viz-vizframe.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizframe/sap-viz-vizframe.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizframe/sap-viz-vizframe.js"
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizservices/sap-viz-vizservices-dbg.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizservices/sap-viz-vizservices.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/controls/libs/sap-viz-vizservices/sap-viz-vizservices.js",
+      "module": "sap/viz/ui5/controls/libs/sap-viz-vizservices/sap-viz-vizservices.js"
+    },
+    {
+      "name": "ui5/core/BaseChart-dbg.js",
+      "module": "sap/viz/ui5/core/BaseChart.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Control.js",
+        "sap/ui/core/theming/Parameters.js",
+        "sap/viz/library.js",
+        "sap/viz/libs/sap-viz.js",
+        "sap/viz/ui5/core/BaseStructuredType.js",
+        "sap/viz/ui5/core/BaseChartMetadata.js"
+      ]
+    },
+    {
+      "name": "ui5/core/BaseChart.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/core/BaseChart.js",
+      "module": "sap/viz/ui5/core/BaseChart.js",
+      "required": [
+        "sap/ui/core/Control.js",
+        "sap/ui/core/theming/Parameters.js",
+        "sap/viz/library.js",
+        "sap/viz/libs/sap-viz.js",
+        "sap/viz/ui5/core/BaseStructuredType.js",
+        "sap/viz/ui5/core/BaseChartMetadata.js"
+      ]
+    },
+    {
+      "name": "ui5/core/BaseChartMetadata-dbg.js",
+      "module": "sap/viz/ui5/core/BaseChartMetadata.js",
+      "isDebug": true,
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/ElementMetadata.js"
+      ]
+    },
+    {
+      "name": "ui5/core/BaseChartMetadata.js",
+      "module": "sap/viz/ui5/core/BaseChartMetadata.js",
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/ElementMetadata.js"
+      ]
+    },
+    {
+      "name": "ui5/core/BaseChartRenderer-dbg.js",
+      "module": "sap/viz/ui5/core/BaseChartRenderer.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/core/BaseChartRenderer.js",
+      "module": "sap/viz/ui5/core/BaseChartRenderer.js"
+    },
+    {
+      "name": "ui5/core/BaseStructuredType-dbg.js",
+      "module": "sap/viz/ui5/core/BaseStructuredType.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChartMetadata.js"
+      ]
+    },
+    {
+      "name": "ui5/core/BaseStructuredType.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/core/BaseStructuredType.js",
+      "module": "sap/viz/ui5/core/BaseStructuredType.js",
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseChartMetadata.js"
+      ]
+    },
+    {
+      "name": "ui5/data/CustomDataset-dbg.js",
+      "module": "sap/viz/ui5/data/CustomDataset.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/data/Dataset.js"
+      ]
+    },
+    {
+      "name": "ui5/data/CustomDataset.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/data/CustomDataset.js",
+      "module": "sap/viz/ui5/data/CustomDataset.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/data/Dataset.js"
+      ]
+    },
+    {
+      "name": "ui5/data/Dataset-dbg.js",
+      "module": "sap/viz/ui5/data/Dataset.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/data/Dataset.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/data/Dataset.js",
+      "module": "sap/viz/ui5/data/Dataset.js",
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/data/DimensionDefinition-dbg.js",
+      "module": "sap/viz/ui5/data/DimensionDefinition.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/data/DimensionDefinition.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/data/DimensionDefinition.js",
+      "module": "sap/viz/ui5/data/DimensionDefinition.js",
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/data/FlattenedDataset-dbg.js",
+      "module": "sap/viz/ui5/data/FlattenedDataset.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/data/Dataset.js"
+      ],
+      "condRequired": [
+        "sap/viz/ui5/data/transformers/ModelToFlattable.js",
+        "sap/viz/ui5/data/transformers/ModelToCrosstable.js",
+        "sap/viz/ui5/data/transformers/ModelToDataset.js"
+      ]
+    },
+    {
+      "name": "ui5/data/FlattenedDataset.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/data/FlattenedDataset.js",
+      "module": "sap/viz/ui5/data/FlattenedDataset.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/data/Dataset.js"
+      ],
+      "condRequired": [
+        "sap/viz/ui5/data/transformers/ModelToFlattable.js",
+        "sap/viz/ui5/data/transformers/ModelToCrosstable.js",
+        "sap/viz/ui5/data/transformers/ModelToDataset.js"
+      ]
+    },
+    {
+      "name": "ui5/data/MeasureDefinition-dbg.js",
+      "module": "sap/viz/ui5/data/MeasureDefinition.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/data/MeasureDefinition.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/data/MeasureDefinition.js",
+      "module": "sap/viz/ui5/data/MeasureDefinition.js",
+      "required": [
+        "sap/ui/core/Element.js",
+        "sap/viz/library.js"
+      ]
+    },
+    {
+      "name": "ui5/data/transformers/ModelToCrosstable-dbg.js",
+      "module": "sap/viz/ui5/data/transformers/ModelToCrosstable.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/data/transformers/ModelToCrosstable.js",
+      "module": "sap/viz/ui5/data/transformers/ModelToCrosstable.js"
+    },
+    {
+      "name": "ui5/data/transformers/ModelToDataset-dbg.js",
+      "module": "sap/viz/ui5/data/transformers/ModelToDataset.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/data/transformers/ModelToDataset.js",
+      "module": "sap/viz/ui5/data/transformers/ModelToDataset.js"
+    },
+    {
+      "name": "ui5/data/transformers/ModelToFlattable-dbg.js",
+      "module": "sap/viz/ui5/data/transformers/ModelToFlattable.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/data/transformers/ModelToFlattable.js",
+      "module": "sap/viz/ui5/data/transformers/ModelToFlattable.js"
+    },
+    {
+      "name": "ui5/format/ChartFormatter-dbg.js",
+      "module": "sap/viz/ui5/format/ChartFormatter.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/format/NumberFormat.js",
+        "sap/ui/core/format/DateFormat.js",
+        "sap/ui/core/format/FileSizeFormat.js"
+      ]
+    },
+    {
+      "name": "ui5/format/ChartFormatter.js",
+      "module": "sap/viz/ui5/format/ChartFormatter.js",
+      "required": [
+        "sap/ui/core/format/NumberFormat.js",
+        "sap/ui/core/format/DateFormat.js",
+        "sap/ui/core/format/FileSizeFormat.js"
+      ]
+    },
+    {
+      "name": "ui5/messages/messagebundle.properties",
+      "module": "sap/viz/ui5/messages/messagebundle.properties",
+      "locale": "",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_ar.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_ar.properties",
+      "locale": "ar",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_bg.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_bg.properties",
+      "locale": "bg",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_ca.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_ca.properties",
+      "locale": "ca",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_cs.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_cs.properties",
+      "locale": "cs",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_da.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_da.properties",
+      "locale": "da",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_de.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_de.properties",
+      "locale": "de",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_el.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_el.properties",
+      "locale": "el",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_en.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_en.properties",
+      "locale": "en",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_en_US_sappsd.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_en_US_sappsd.properties",
+      "locale": "en_US_sappsd",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_en_US_saptrc.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_en_US_saptrc.properties",
+      "locale": "en_US_saptrc",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_es.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_es.properties",
+      "locale": "es",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_et.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_et.properties",
+      "locale": "et",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_fi.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_fi.properties",
+      "locale": "fi",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_fr.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_fr.properties",
+      "locale": "fr",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_hi.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_hi.properties",
+      "locale": "hi",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_hr.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_hr.properties",
+      "locale": "hr",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_hu.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_hu.properties",
+      "locale": "hu",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_it.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_it.properties",
+      "locale": "it",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_iw.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_iw.properties",
+      "locale": "iw",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_ja.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_ja.properties",
+      "locale": "ja",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_kk.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_kk.properties",
+      "locale": "kk",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_ko.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_ko.properties",
+      "locale": "ko",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_lt.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_lt.properties",
+      "locale": "lt",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_lv.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_lv.properties",
+      "locale": "lv",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_ms.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_ms.properties",
+      "locale": "ms",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_nl.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_nl.properties",
+      "locale": "nl",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_no.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_no.properties",
+      "locale": "no",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_pl.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_pl.properties",
+      "locale": "pl",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_pt.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_pt.properties",
+      "locale": "pt",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_ro.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_ro.properties",
+      "locale": "ro",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_ru.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_ru.properties",
+      "locale": "ru",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_sh.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_sh.properties",
+      "locale": "sh",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_sk.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_sk.properties",
+      "locale": "sk",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_sl.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_sl.properties",
+      "locale": "sl",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_sv.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_sv.properties",
+      "locale": "sv",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_th.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_th.properties",
+      "locale": "th",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_tr.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_tr.properties",
+      "locale": "tr",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_uk.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_uk.properties",
+      "locale": "uk",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_vi.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_vi.properties",
+      "locale": "vi",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_zh_CN.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_zh_CN.properties",
+      "locale": "zh_CN",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/messages/messagebundle_zh_TW.properties",
+      "module": "sap/viz/ui5/messages/messagebundle_zh_TW.properties",
+      "locale": "zh_TW",
+      "raw": "ui5/messages/messagebundle.properties"
+    },
+    {
+      "name": "ui5/theming/Util-dbg.js",
+      "module": "sap/viz/ui5/theming/Util.js",
+      "isDebug": true
+    },
+    {
+      "name": "ui5/theming/Util.js",
+      "module": "sap/viz/ui5/theming/Util.js"
+    },
+    {
+      "name": "ui5/types/Area-dbg.js",
+      "module": "sap/viz/ui5/types/Area.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area.js",
+      "module": "sap/viz/ui5/types/Area.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Area_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area_animation.js",
+      "module": "sap/viz/ui5/types/Area_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area_hoverline-dbg.js",
+      "module": "sap/viz/ui5/types/Area_hoverline.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area_hoverline.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area_hoverline.js",
+      "module": "sap/viz/ui5/types/Area_hoverline.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area_marker-dbg.js",
+      "module": "sap/viz/ui5/types/Area_marker.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area_marker.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area_marker.js",
+      "module": "sap/viz/ui5/types/Area_marker.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area_marker_shape.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area_mode.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Area_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Area_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Area_tooltip.js",
+      "module": "sap/viz/ui5/types/Area_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis-dbg.js",
+      "module": "sap/viz/ui5/types/Axis.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis.js",
+      "module": "sap/viz/ui5/types/Axis.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_axisTick-dbg.js",
+      "module": "sap/viz/ui5/types/Axis_axisTick.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_axisTick.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_axisTick.js",
+      "module": "sap/viz/ui5/types/Axis_axisTick.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_axisline-dbg.js",
+      "module": "sap/viz/ui5/types/Axis_axisline.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_axisline.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_axisline.js",
+      "module": "sap/viz/ui5/types/Axis_axisline.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_gridline-dbg.js",
+      "module": "sap/viz/ui5/types/Axis_gridline.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_gridline.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_gridline.js",
+      "module": "sap/viz/ui5/types/Axis_gridline.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_gridline_type.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_indicator-dbg.js",
+      "module": "sap/viz/ui5/types/Axis_indicator.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_indicator.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_indicator.js",
+      "module": "sap/viz/ui5/types/Axis_indicator.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_label-dbg.js",
+      "module": "sap/viz/ui5/types/Axis_label.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_label.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_label.js",
+      "module": "sap/viz/ui5/types/Axis_label.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_label_unitFormatType.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_layoutInfo-dbg.js",
+      "module": "sap/viz/ui5/types/Axis_layoutInfo.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_layoutInfo.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_layoutInfo.js",
+      "module": "sap/viz/ui5/types/Axis_layoutInfo.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_position.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_scale-dbg.js",
+      "module": "sap/viz/ui5/types/Axis_scale.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_scale.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_scale.js",
+      "module": "sap/viz/ui5/types/Axis_scale.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_title-dbg.js",
+      "module": "sap/viz/ui5/types/Axis_title.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_title.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Axis_title.js",
+      "module": "sap/viz/ui5/types/Axis_title.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Axis_type.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Background-dbg.js",
+      "module": "sap/viz/ui5/types/Background.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Background.js",
+      "module": "sap/viz/ui5/types/Background.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border-dbg.js",
+      "module": "sap/viz/ui5/types/Background_border.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Background_border.js",
+      "module": "sap/viz/ui5/types/Background_border.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border_bottom-dbg.js",
+      "module": "sap/viz/ui5/types/Background_border_bottom.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border_bottom.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Background_border_bottom.js",
+      "module": "sap/viz/ui5/types/Background_border_bottom.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border_left-dbg.js",
+      "module": "sap/viz/ui5/types/Background_border_left.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border_left.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Background_border_left.js",
+      "module": "sap/viz/ui5/types/Background_border_left.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border_right-dbg.js",
+      "module": "sap/viz/ui5/types/Background_border_right.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border_right.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Background_border_right.js",
+      "module": "sap/viz/ui5/types/Background_border_right.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border_top-dbg.js",
+      "module": "sap/viz/ui5/types/Background_border_top.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_border_top.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Background_border_top.js",
+      "module": "sap/viz/ui5/types/Background_border_top.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Background_direction.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Background_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bar-dbg.js",
+      "module": "sap/viz/ui5/types/Bar.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bar.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bar.js",
+      "module": "sap/viz/ui5/types/Bar.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bar_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Bar_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bar_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bar_animation.js",
+      "module": "sap/viz/ui5/types/Bar_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bar_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bar_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bar_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Bar_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bar_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bar_tooltip.js",
+      "module": "sap/viz/ui5/types/Bar_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bubble-dbg.js",
+      "module": "sap/viz/ui5/types/Bubble.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bubble.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bubble.js",
+      "module": "sap/viz/ui5/types/Bubble.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bubble_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Bubble_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bubble_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bubble_animation.js",
+      "module": "sap/viz/ui5/types/Bubble_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bubble_axisTooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Bubble_axisTooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bubble_axisTooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bubble_axisTooltip.js",
+      "module": "sap/viz/ui5/types/Bubble_axisTooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bubble_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bubble_hoverline-dbg.js",
+      "module": "sap/viz/ui5/types/Bubble_hoverline.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bubble_hoverline.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bubble_hoverline.js",
+      "module": "sap/viz/ui5/types/Bubble_hoverline.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bullet-dbg.js",
+      "module": "sap/viz/ui5/types/Bullet.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bullet.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bullet.js",
+      "module": "sap/viz/ui5/types/Bullet.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bullet_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bullet_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bullet_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Bullet_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Bullet_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Bullet_tooltip.js",
+      "module": "sap/viz/ui5/types/Bullet_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination-dbg.js",
+      "module": "sap/viz/ui5/types/Combination.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination.js",
+      "module": "sap/viz/ui5/types/Combination.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Combination_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination_animation.js",
+      "module": "sap/viz/ui5/types/Combination_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_bar-dbg.js",
+      "module": "sap/viz/ui5/types/Combination_bar.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_bar.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination_bar.js",
+      "module": "sap/viz/ui5/types/Combination_bar.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_dataShape-dbg.js",
+      "module": "sap/viz/ui5/types/Combination_dataShape.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_dataShape.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination_dataShape.js",
+      "module": "sap/viz/ui5/types/Combination_dataShape.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination_line-dbg.js",
+      "module": "sap/viz/ui5/types/Combination_line.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_line.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination_line.js",
+      "module": "sap/viz/ui5/types/Combination_line.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_line_marker-dbg.js",
+      "module": "sap/viz/ui5/types/Combination_line_marker.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_line_marker.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination_line_marker.js",
+      "module": "sap/viz/ui5/types/Combination_line_marker.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Combination_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Combination_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Combination_tooltip.js",
+      "module": "sap/viz/ui5/types/Combination_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datalabel-dbg.js",
+      "module": "sap/viz/ui5/types/Datalabel.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datalabel.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datalabel.js",
+      "module": "sap/viz/ui5/types/Datalabel.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datalabel_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datalabel_outsidePosition.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datalabel_paintingMode.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datalabel_position.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datatransform-dbg.js",
+      "module": "sap/viz/ui5/types/Datatransform.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datatransform.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datatransform.js",
+      "module": "sap/viz/ui5/types/Datatransform.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datatransform_autoBinning-dbg.js",
+      "module": "sap/viz/ui5/types/Datatransform_autoBinning.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datatransform_autoBinning.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datatransform_autoBinning.js",
+      "module": "sap/viz/ui5/types/Datatransform_autoBinning.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datatransform_dataSampling-dbg.js",
+      "module": "sap/viz/ui5/types/Datatransform_dataSampling.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datatransform_dataSampling.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datatransform_dataSampling.js",
+      "module": "sap/viz/ui5/types/Datatransform_dataSampling.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datatransform_dataSampling_grid-dbg.js",
+      "module": "sap/viz/ui5/types/Datatransform_dataSampling_grid.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Datatransform_dataSampling_grid.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Datatransform_dataSampling_grid.js",
+      "module": "sap/viz/ui5/types/Datatransform_dataSampling_grid.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Heatmap-dbg.js",
+      "module": "sap/viz/ui5/types/Heatmap.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Heatmap.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Heatmap.js",
+      "module": "sap/viz/ui5/types/Heatmap.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Heatmap_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Heatmap_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Heatmap_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Heatmap_animation.js",
+      "module": "sap/viz/ui5/types/Heatmap_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Heatmap_border-dbg.js",
+      "module": "sap/viz/ui5/types/Heatmap_border.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Heatmap_border.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Heatmap_border.js",
+      "module": "sap/viz/ui5/types/Heatmap_border.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Heatmap_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Heatmap_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Heatmap_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Heatmap_tooltip.js",
+      "module": "sap/viz/ui5/types/Heatmap_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Legend-dbg.js",
+      "module": "sap/viz/ui5/types/Legend.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Legend.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Legend.js",
+      "module": "sap/viz/ui5/types/Legend.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Legend_layout-dbg.js",
+      "module": "sap/viz/ui5/types/Legend_layout.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Legend_layout.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Legend_layout.js",
+      "module": "sap/viz/ui5/types/Legend_layout.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Legend_layout_position.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line-dbg.js",
+      "module": "sap/viz/ui5/types/Line.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line.js",
+      "module": "sap/viz/ui5/types/Line.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Line_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line_animation.js",
+      "module": "sap/viz/ui5/types/Line_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line_hoverline-dbg.js",
+      "module": "sap/viz/ui5/types/Line_hoverline.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line_hoverline.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line_hoverline.js",
+      "module": "sap/viz/ui5/types/Line_hoverline.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line_marker-dbg.js",
+      "module": "sap/viz/ui5/types/Line_marker.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line_marker.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line_marker.js",
+      "module": "sap/viz/ui5/types/Line_marker.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line_marker_shape.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Line_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Line_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Line_tooltip.js",
+      "module": "sap/viz/ui5/types/Line_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Pie-dbg.js",
+      "module": "sap/viz/ui5/types/Pie.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Pie.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Pie.js",
+      "module": "sap/viz/ui5/types/Pie.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Pie_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Pie_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Pie_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Pie_animation.js",
+      "module": "sap/viz/ui5/types/Pie_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Pie_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Pie_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Pie_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Pie_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Pie_tooltip.js",
+      "module": "sap/viz/ui5/types/Pie_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Pie_valign.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/RootContainer-dbg.js",
+      "module": "sap/viz/ui5/types/RootContainer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/RootContainer.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/RootContainer.js",
+      "module": "sap/viz/ui5/types/RootContainer.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/RootContainer_layout-dbg.js",
+      "module": "sap/viz/ui5/types/RootContainer_layout.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/RootContainer_layout.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/RootContainer_layout.js",
+      "module": "sap/viz/ui5/types/RootContainer_layout.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Scatter-dbg.js",
+      "module": "sap/viz/ui5/types/Scatter.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Scatter.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Scatter.js",
+      "module": "sap/viz/ui5/types/Scatter.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Scatter_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Scatter_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Scatter_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Scatter_animation.js",
+      "module": "sap/viz/ui5/types/Scatter_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Scatter_axisTooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Scatter_axisTooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Scatter_axisTooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Scatter_axisTooltip.js",
+      "module": "sap/viz/ui5/types/Scatter_axisTooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Scatter_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Scatter_hoverline-dbg.js",
+      "module": "sap/viz/ui5/types/Scatter_hoverline.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Scatter_hoverline.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Scatter_hoverline.js",
+      "module": "sap/viz/ui5/types/Scatter_hoverline.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar-dbg.js",
+      "module": "sap/viz/ui5/types/StackedVerticalBar.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar.js",
+      "module": "sap/viz/ui5/types/StackedVerticalBar.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_animation-dbg.js",
+      "module": "sap/viz/ui5/types/StackedVerticalBar_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_animation.js",
+      "module": "sap/viz/ui5/types/StackedVerticalBar_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_mode.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/StackedVerticalBar_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/StackedVerticalBar_tooltip.js",
+      "module": "sap/viz/ui5/types/StackedVerticalBar_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Title-dbg.js",
+      "module": "sap/viz/ui5/types/Title.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Title.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Title.js",
+      "module": "sap/viz/ui5/types/Title.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Title_alignment.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Title_layout-dbg.js",
+      "module": "sap/viz/ui5/types/Title_layout.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Title_layout.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Title_layout.js",
+      "module": "sap/viz/ui5/types/Title_layout.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip.js",
+      "module": "sap/viz/ui5/types/Tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_background-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip_background.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_background.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_background.js",
+      "module": "sap/viz/ui5/types/Tooltip_background.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyDimensionLabel-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip_bodyDimensionLabel.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyDimensionLabel.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyDimensionLabel.js",
+      "module": "sap/viz/ui5/types/Tooltip_bodyDimensionLabel.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyDimensionValue-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip_bodyDimensionValue.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyDimensionValue.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyDimensionValue.js",
+      "module": "sap/viz/ui5/types/Tooltip_bodyDimensionValue.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyMeasureLabel-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip_bodyMeasureLabel.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyMeasureLabel.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyMeasureLabel.js",
+      "module": "sap/viz/ui5/types/Tooltip_bodyMeasureLabel.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyMeasureValue-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip_bodyMeasureValue.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyMeasureValue.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_bodyMeasureValue.js",
+      "module": "sap/viz/ui5/types/Tooltip_bodyMeasureValue.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_closeButton-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip_closeButton.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_closeButton.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_closeButton.js",
+      "module": "sap/viz/ui5/types/Tooltip_closeButton.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_footerLabel-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip_footerLabel.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_footerLabel.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_footerLabel.js",
+      "module": "sap/viz/ui5/types/Tooltip_footerLabel.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_separationLine-dbg.js",
+      "module": "sap/viz/ui5/types/Tooltip_separationLine.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Tooltip_separationLine.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Tooltip_separationLine.js",
+      "module": "sap/viz/ui5/types/Tooltip_separationLine.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Treemap-dbg.js",
+      "module": "sap/viz/ui5/types/Treemap.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Treemap.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Treemap.js",
+      "module": "sap/viz/ui5/types/Treemap.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Treemap_animation-dbg.js",
+      "module": "sap/viz/ui5/types/Treemap_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Treemap_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Treemap_animation.js",
+      "module": "sap/viz/ui5/types/Treemap_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Treemap_border-dbg.js",
+      "module": "sap/viz/ui5/types/Treemap_border.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Treemap_border.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Treemap_border.js",
+      "module": "sap/viz/ui5/types/Treemap_border.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Treemap_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/Treemap_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/Treemap_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/Treemap_tooltip.js",
+      "module": "sap/viz/ui5/types/Treemap_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/VerticalBar-dbg.js",
+      "module": "sap/viz/ui5/types/VerticalBar.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/VerticalBar.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/VerticalBar.js",
+      "module": "sap/viz/ui5/types/VerticalBar.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/VerticalBar_animation-dbg.js",
+      "module": "sap/viz/ui5/types/VerticalBar_animation.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/VerticalBar_animation.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/VerticalBar_animation.js",
+      "module": "sap/viz/ui5/types/VerticalBar_animation.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/VerticalBar_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/VerticalBar_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/VerticalBar_tooltip-dbg.js",
+      "module": "sap/viz/ui5/types/VerticalBar_tooltip.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/VerticalBar_tooltip.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/VerticalBar_tooltip.js",
+      "module": "sap/viz/ui5/types/VerticalBar_tooltip.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/XYContainer-dbg.js",
+      "module": "sap/viz/ui5/types/XYContainer.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/XYContainer.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/XYContainer.js",
+      "module": "sap/viz/ui5/types/XYContainer.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/controller/Interaction-dbg.js",
+      "module": "sap/viz/ui5/types/controller/Interaction.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/controller/Interaction.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/controller/Interaction.js",
+      "module": "sap/viz/ui5/types/controller/Interaction.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/controller/Interaction_pan-dbg.js",
+      "module": "sap/viz/ui5/types/controller/Interaction_pan.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/controller/Interaction_pan.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/controller/Interaction_pan.js",
+      "module": "sap/viz/ui5/types/controller/Interaction_pan.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/controller/Interaction_pan_orientation.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/controller/Interaction_selectability-dbg.js",
+      "module": "sap/viz/ui5/types/controller/Interaction_selectability.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/controller/Interaction_selectability.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/controller/Interaction_selectability.js",
+      "module": "sap/viz/ui5/types/controller/Interaction_selectability.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/controller/Interaction_selectability_mode.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/layout/Dock-dbg.js",
+      "module": "sap/viz/ui5/types/layout/Dock.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/layout/Dock.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/layout/Dock.js",
+      "module": "sap/viz/ui5/types/layout/Dock.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/layout/Stack-dbg.js",
+      "module": "sap/viz/ui5/types/layout/Stack.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/layout/Stack.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/layout/Stack.js",
+      "module": "sap/viz/ui5/types/layout/Stack.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/legend/Common-dbg.js",
+      "module": "sap/viz/ui5/types/legend/Common.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/legend/Common.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/legend/Common.js",
+      "module": "sap/viz/ui5/types/legend/Common.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/legend/Common_alignment.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/legend/Common_drawingEffect.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/legend/Common_position.type",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/legend/Common_title-dbg.js",
+      "module": "sap/viz/ui5/types/legend/Common_title.js",
+      "isDebug": true,
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/legend/Common_title.control",
+      "designtime": true
+    },
+    {
+      "name": "ui5/types/legend/Common_title.js",
+      "module": "sap/viz/ui5/types/legend/Common_title.js",
+      "required": [
+        "sap/viz/library.js",
+        "sap/viz/ui5/core/BaseStructuredType.js"
+      ]
+    },
+    {
+      "name": "ui5/types/legend/Common_type.type",
+      "designtime": true
+    }
+  ]
+}

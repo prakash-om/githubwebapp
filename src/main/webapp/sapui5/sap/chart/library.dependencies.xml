@@ -1,0 +1,225 @@
+<?xml version="1.0" ?>
+<library  version="2.0" name="sap.chart">
+  <module name="sap/chart/Chart.js" size="100480" compressedSize="42374">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/chart/library.js"/>
+      <module name="sap/viz/ui5/controls/VizFrame.js"/>
+      <module name="sap/viz/ui5/controls/common/BaseControl.js"/>
+      <module name="sap/viz/ui5/data/Dataset.js"/>
+      <module name="sap/viz/ui5/data/FlattenedDataset.js"/>
+      <module name="sap/viz/ui5/data/DimensionDefinition.js"/>
+      <module name="sap/viz/ui5/data/MeasureDefinition.js"/>
+      <module name="sap/chart/data/Dimension.js"/>
+      <module name="sap/chart/data/TimeDimension.js"/>
+      <module name="sap/chart/data/Measure.js"/>
+      <module name="sap/ui/model/analytics/ODataModelAdapter.js"/>
+      <module name="sap/chart/utils/RoleFitter.js"/>
+      <module name="sap/chart/utils/ChartUtils.js"/>
+      <module name="sap/chart/utils/SeriesColorTracker.js"/>
+      <module name="sap/chart/utils/ChartTypeAdapterUtils.js"/>
+      <module name="sap/chart/utils/DateFormatUtil.js"/>
+      <module name="sap/chart/utils/DataSourceUtils.js"/>
+      <module name="sap/viz/ui5/controls/common/feeds/FeedItem.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/analytics/odata4analytics.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/chart/TimeUnitType.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/ChartType.js" size="4056" compressedSize="1124">
+    <description>Provides enumeration sap.chart.ChartType</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/TimeUnitType.js" size="779" compressedSize="214">
+    <description>Provides enumeration sap.chart.TimeUnitType</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/data/Dimension.js" size="2842" compressedSize="984">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="sap/chart/utils/ChartUtils.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/data/Measure.js" size="3947" compressedSize="1224">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="sap/chart/utils/ChartUtils.js"/>
+      <module name="sap/chart/library.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/data/TimeDimension.js" size="1088" compressedSize="403">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/chart/data/Dimension.js"/>
+      <module name="sap/chart/utils/ChartUtils.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/i18n/i18n.properties" size="1339">
+  </module>
+  <module name="sap/chart/i18n/i18n_ar.properties" size="5641">
+  </module>
+  <module name="sap/chart/i18n/i18n_bg.properties" size="6835">
+  </module>
+  <module name="sap/chart/i18n/i18n_ca.properties" size="2114">
+  </module>
+  <module name="sap/chart/i18n/i18n_cs.properties" size="2190">
+  </module>
+  <module name="sap/chart/i18n/i18n_da.properties" size="1826">
+  </module>
+  <module name="sap/chart/i18n/i18n_de.properties" size="1896">
+  </module>
+  <module name="sap/chart/i18n/i18n_el.properties" size="6662">
+  </module>
+  <module name="sap/chart/i18n/i18n_en.properties" size="1637">
+  </module>
+  <module name="sap/chart/i18n/i18n_es.properties" size="2164">
+  </module>
+  <module name="sap/chart/i18n/i18n_et.properties" size="1635">
+  </module>
+  <module name="sap/chart/i18n/i18n_fi.properties" size="1732">
+  </module>
+  <module name="sap/chart/i18n/i18n_fr.properties" size="2288">
+  </module>
+  <module name="sap/chart/i18n/i18n_hi.properties" size="5119">
+  </module>
+  <module name="sap/chart/i18n/i18n_hr.properties" size="1978">
+  </module>
+  <module name="sap/chart/i18n/i18n_hu.properties" size="2100">
+  </module>
+  <module name="sap/chart/i18n/i18n_it.properties" size="1763">
+  </module>
+  <module name="sap/chart/i18n/i18n_iw.properties" size="4574">
+  </module>
+  <module name="sap/chart/i18n/i18n_ja.properties" size="3156">
+  </module>
+  <module name="sap/chart/i18n/i18n_ko.properties" size="2786">
+  </module>
+  <module name="sap/chart/i18n/i18n_lt.properties" size="2346">
+  </module>
+  <module name="sap/chart/i18n/i18n_lv.properties" size="2147">
+  </module>
+  <module name="sap/chart/i18n/i18n_nl.properties" size="1803">
+  </module>
+  <module name="sap/chart/i18n/i18n_no.properties" size="1735">
+  </module>
+  <module name="sap/chart/i18n/i18n_pl.properties" size="2030">
+  </module>
+  <module name="sap/chart/i18n/i18n_pt.properties" size="2135">
+  </module>
+  <module name="sap/chart/i18n/i18n_ro.properties" size="2145">
+  </module>
+  <module name="sap/chart/i18n/i18n_ru.properties" size="7805">
+  </module>
+  <module name="sap/chart/i18n/i18n_sh.properties" size="1997">
+  </module>
+  <module name="sap/chart/i18n/i18n_sk.properties" size="2175">
+  </module>
+  <module name="sap/chart/i18n/i18n_sl.properties" size="2121">
+  </module>
+  <module name="sap/chart/i18n/i18n_sv.properties" size="1766">
+  </module>
+  <module name="sap/chart/i18n/i18n_th.properties" size="6064">
+  </module>
+  <module name="sap/chart/i18n/i18n_tr.properties" size="2282">
+  </module>
+  <module name="sap/chart/i18n/i18n_uk.properties" size="6519">
+  </module>
+  <module name="sap/chart/i18n/i18n_vi.properties" size="3957">
+  </module>
+  <module name="sap/chart/i18n/i18n_zh_CN.properties" size="2115">
+  </module>
+  <module name="sap/chart/i18n/i18n_zh_TW.properties" size="2307">
+  </module>
+  <module name="sap/chart/library.js" size="6151" compressedSize="2708">
+    <description>Initialization Code and shared classes of library sap.chart.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/viz/ui5/format/ChartFormatter.js"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="sap/viz/library.js"/>
+      <module name="sap/chart/utils/RoleFitter.js"/>
+      <module name="sap/chart/ChartType.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/manifest.json" size="737">
+  </module>
+  <module name="sap/chart/utils/ChartTypeAdapterUtils.js" size="1243" compressedSize="631">
+    <description>SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/chart/ChartType.js"/>
+      <module name="sap/chart/TimeUnitType.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/utils/ChartUtils.js" size="3683" compressedSize="2169">
+    <description>SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/chart/ChartType.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/utils/DataSourceUtils.js" size="7896" compressedSize="4053">
+    <description>SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/chart/data/Dimension.js"/>
+      <module name="sap/chart/data/TimeDimension.js"/>
+      <module name="sap/chart/data/Measure.js"/>
+      <module name="sap/chart/TimeUnitType.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/utils/DateFormatUtil.js" size="631" compressedSize="365">
+    <description>Parse and Format Date String depending on sap.ui.core.format.DateFormat</description>
+    <requires>
+      <module name="sap/chart/TimeUnitType.js"/>
+      <module name="sap/ui/core/format/DateFormat.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/utils/MeasureSemantics.js" size="2125" compressedSize="1200">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/utils/RoleFitter.js" size="17017" compressedSize="9465">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/viz/ui5/data/DimensionDefinition.js"/>
+      <module name="sap/viz/ui5/data/MeasureDefinition.js"/>
+      <module name="sap/viz/ui5/controls/common/feeds/FeedItem.js"/>
+      <module name="sap/viz/ui5/controls/common/feeds/AnalysisObject.js"/>
+      <module name="sap/chart/TimeUnitType.js"/>
+      <module name="sap/chart/utils/DateFormatUtil.js"/>
+      <module name="sap/chart/utils/ChartUtils.js"/>
+      <module name="sap/chart/utils/RoleMapper.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/utils/RoleMapper.js" size="1842" compressedSize="1125">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2016 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/chart/data/TimeDimension.js"/>
+      <module name="sap/chart/utils/MeasureSemantics.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/chart/utils/SeriesColorTracker.js" size="2441" compressedSize="1052">
+    <description>Keep track of series colors on different *pages*.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+</library>
