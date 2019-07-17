@@ -1,0 +1,7 @@
+---
+applications:
+ - name: githubwebapp
+   path: target/githubWebApp.war
+   random-route: false
+   buildpack: java_buildpack
+   memory: 2048M

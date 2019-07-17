@@ -24,6 +24,9 @@ sap.ui.controller("web.history", {
 			var viewId = that.getView();
 			var model = sap.ui.getCore().getModel();
 			var url = window.location.href.split('?')[0];
+			if (url.endsWith("/")){
+				url = url.substring(0,url.length-1);
+			}
 			var result = null;
 			var that = this;
 			var auth = "Bearer " + model.getToken();
@@ -55,6 +58,9 @@ sap.ui.controller("web.history", {
 			var viewId = that.getView();
 			var model = sap.ui.getCore().getModel();
 			var url = window.location.href.split('?')[0];
+			if (url.endsWith("/")){
+				url = url.substring(0,url.length-1);
+			}
 			var result = null;
 			var that = this;
 			var auth = "Bearer " + model.getToken();
@@ -92,6 +98,9 @@ sap.ui.controller("web.history", {
 			var viewId = that.getView();
 			var model = sap.ui.getCore().getModel();
 			var url = window.location.href.split('?')[0];
+			if (url.endsWith("/")){
+				url = url.substring(0,url.length-1);
+			}
 			var result = null;
 			var that = this;
 			
@@ -130,6 +139,9 @@ sap.ui.controller("web.history", {
 		var viewId = that.getView();
 		var model = sap.ui.getCore().getModel();
 		var url = window.location.href.split('?')[0];
+		if (url.endsWith("/")){
+			url = url.substring(0,url.length-1);
+		}
 		var result = null;
 		var that = this;
 		var auth = "Bearer " + model.getToken();

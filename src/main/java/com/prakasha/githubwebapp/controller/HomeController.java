@@ -64,7 +64,7 @@ public class HomeController {
 
 	@Value("${client_secret}")
 	private String client_secret;
-	@RequestMapping(value = "githubwebapp/search", method = RequestMethod.GET, produces = "application/json")
+	@RequestMapping(value = "search", method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<?> getProfile(@RequestParam(value = "name") String name,
 			@RequestHeader("Authorization") String bearerToken) throws GitHubException, SQLException {
 		UserDataEntity entityData = null;
@@ -92,7 +92,7 @@ public class HomeController {
 		}
 	}
 
-	@RequestMapping(value = "githubwebapp/login", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
+	@RequestMapping(value = "/login", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
 	public ResponseEntity<?> getAccessToken(@RequestBody Map<String, String> map) {
 
 		TokenResponse tokenResponse = null;
@@ -115,7 +115,7 @@ public class HomeController {
 
 	}
 	
-	@RequestMapping(value = "githubwebapp/logout", method = RequestMethod.POST)
+	@RequestMapping(value = "logout", method = RequestMethod.POST)
 	public ResponseEntity<?> logout(@RequestHeader("Authorization") String bearerToken) {
 
 		if (bearerToken.isEmpty() || null == bearerToken) {
@@ -139,7 +139,7 @@ public class HomeController {
 				&& tokenRequest.getRedirect_uri() != null && !tokenRequest.getRedirect_uri().isEmpty());
 	}
 
-	@RequestMapping(value = "githubwebapp/search/users", method = RequestMethod.GET, produces = "application/json")
+	@RequestMapping(value = "search/users", method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<?> getUsers(@RequestParam(value = "q") String searchItem,
 			@RequestHeader("Authorization") String bearerToken) {
 		GitUserSearchResultEntity entity = null;
@@ -165,7 +165,7 @@ public class HomeController {
 		return new ResponseEntity<GitUserSearchResultEntity>(entity, HttpStatus.OK);
 	}
 	
-	@RequestMapping(value = "githubwebapp/search/{id}", method = RequestMethod.GET, produces = "application/json")
+	@RequestMapping(value = "search/{id}", method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<?> getSearchResultForId(@PathVariable(value = "id") long id,
 			@RequestHeader("Authorization") String bearerToken) {
 		GitUserSearchResultEntity entity = null;
@@ -188,7 +188,7 @@ public class HomeController {
 		return new ResponseEntity<GitUserSearchResultEntity>(entity, HttpStatus.OK);
 	}
 
-	@RequestMapping(value = "githubwebapp/search/history", method = RequestMethod.GET, produces = "application/json")
+	@RequestMapping(value = "search/history", method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<?> getUserSearchHistroy(@RequestHeader("Authorization") String bearerToken) {
 		List<GitUserSearchResultEntity> entityList = null;
 		String owner = null;
@@ -210,7 +210,7 @@ public class HomeController {
 		}
 	}
 
-	@RequestMapping(value = "githubwebapp/search/history", method = RequestMethod.DELETE, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value = "search/history", method = RequestMethod.DELETE, consumes = "application/json", produces = "application/json")
 	public ResponseEntity<?> deleteProfile(@RequestBody List<Long> ids,
 			@RequestHeader("Authorization") String bearerToken) {
 

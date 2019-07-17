@@ -55,8 +55,10 @@ sap.ui.controller("web.login", {
 	login : function(code) {
 		var model = sap.ui.getCore().getModel();
 		inputdata = {};
-		
 		var url = window.location.href.split('?')[0];
+		if (url.endsWith("/")){
+			url = url.substring(0,url.length-1);
+		}
 		inputdata.code = code;
 		inputdata.redirect_uri = url;
 		var that = this;
