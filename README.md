@@ -9,7 +9,7 @@ Please use eclipese and import as maven project and the run the application.
 Steps To Run
 
 Login
-  a) Click the https://githubwebappi348158trial.hanatrial.ondemand.com/githubWebApp url for login
+  a) Click the https://githubwebapp.cfapps.eu10.hana.ondemand.com url for login
   b) To login into githubwebapp application please press the button Sign in with GitHub and it will take through github oauth process
 
 Home Page : Home Page will have search bar, searchhistory button, logout button
