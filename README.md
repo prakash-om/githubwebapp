@@ -1,11 +1,6 @@
 # githubwebapp
 Web Application with OAuth github
 
-Step As of now
-Please use eclipese and import as maven project and the run the application.
-
-
-<Idel step>
 Steps To Run
 
 Login
