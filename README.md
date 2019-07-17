@@ -1,19 +1,23 @@
 # githubwebapp
 Web Application with OAuth github
 
+Step As of now
+Please use eclipese and import as maven project and the run the application.
+
+
+<Idel step>
 Steps To Run
 
 Login
-
-1) Click the https://githubwebappi348158trial.hanatrial.ondemand.com/githubWebApp url for login
-2) To login into my application please press the button Sign in with GitHub and it will take through github oauth process
+  a) Click the https://githubwebappi348158trial.hanatrial.ondemand.com/githubWebApp url for login
+  b) To login into githubwebapp application please press the button Sign in with GitHub and it will take through github oauth process
 
 Home Page : Home Page will have search bar, searchhistory button, logout button
 
 SearchBar : 
-1) Enter the any githandle name and hit keyboard enter button, and reslut will be shown in below table
+  a) Enter the any githandle name and hit keyboard enter button, and reslut will be shown in below table
 
-2) Search History : 
+Search History : 
   a) After click of this button, current user search history will be displayed
   Note: Please use refresh button, if history is not loaded (Sometime model binding is skiiping)
   
@@ -21,6 +25,7 @@ SearchBar :
   
   c) Can select single/multiple entires to delete the search history result
   
-3) Once the usage is done, you can logout from the application
+Logout
+a) Once the usage is done, you can logout from the application
  
 
