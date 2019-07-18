@@ -6,6 +6,7 @@ Steps To Run
 Login
 
   a) Click the https://githubwebapp.cfapps.eu10.hana.ondemand.com url for login
+     Note: if it saying 404 please do let me know, because the cloud required daily restart of the application.
   
   b) To login into githubwebapp application please press the button Sign in with GitHub and it will take through github oauth process
 
